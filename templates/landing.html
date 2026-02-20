@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Career Recommender</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #4162e6, #260153);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .container {
+            text-align: center;
+            color: white;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        h1 {
+            
+            font-size: 65px;
+            margin-bottom: 50px;
+            animation: slideDown 1s ease-in-out;
+        }
+
+        p {
+            font-size: 18px;
+            width: 600px;
+            max-width: 90%;
+            margin: auto;
+            margin-bottom: 30px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .btn {
+            padding: 12px 25px;
+            background: white;
+            color: #1d2b64;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 25px;
+            transition: 0.3s;
+            font-size: 16px;
+        }
+
+        .btn:hover {
+            background: #f8cdda;
+            transform: scale(1.05);
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideDown {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>🚀 Welcome to AI Career Recommender</h1>
+        <p>
+            This intelligent system analyzes your interests, skills,
+            aptitude, personality and education to recommend the most
+            suitable career path using Machine Learning.
+        </p>
+
+        <a href="/predict_page" class="btn">
+            🎯 Predict Career
+        </a>
+    </div>
+    
+</body>
+</html>
